@@ -43,3 +43,32 @@ pre {
     line-height: 1.6;
     margin-top: 15px;
 }
+body {
+  font-family: "Vazirmatn", sans-serif;
+  background-color: #f8fafc;
+  color: #111827;
+  line-height: 2;
+  margin: 0;
+}
+
+code, pre {
+  background-color: #0f172a;
+  color: #e5e7eb;
+  display: block;
+  direction: ltr;
+  padding: 15px;
+  border-radius: 10px;
+  overflow-x: auto;
+  font-size: 14px;
+}
+
+.navbar {
+  background-color: #020617;
+  padding: 12px;
+}
+
+.navbar a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-left: 10px;
+}
