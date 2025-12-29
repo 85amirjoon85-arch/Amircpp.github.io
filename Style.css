@@ -1,0 +1,45 @@
+body {
+    body {
+    background: #0f172a;
+    color: white;
+    font-family: 'Vazirmatn', sans-serif;
+    direction: rtl;
+    padding: 20px;
+}
+
+}
+
+nav a {
+    color: #38bdf8;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.lessons {
+    list-style: none;
+    padding: 0;
+}
+
+.lessons li {
+    background: #020617;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+.lessons a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.lessons a:hover {
+    color: #22c55e;
+}
+pre {
+    background: #020617;
+    color: #e5e7eb;
+    padding: 15px;
+    border-radius: 12px;
+    overflow-x: auto;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-top: 15px;
+}
