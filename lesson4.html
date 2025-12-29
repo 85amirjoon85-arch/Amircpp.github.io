@@ -1,74 +1,49 @@
 <!DOCTYPE html>
 <html lang="fa">
 <head>
+<meta charset="UTF-8">
+<title>درس ۴ | حلقه‌ها</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="style.css">
 
-    <meta charset="UTF-8">
-    <title>درس ۴ - حلقه‌ها در C++</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
 </head>
+
 <body>
+<header>درس ۴: حلقه‌ها</header>
 
-<nav>
-    <a href="index.html">خانه</a>
-    <a href="lessons.html">درس‌ها</a>
-</nav>
-
-<h1>درس ۴: حلقه‌ها (for / while)</h1>
+<div class="container">
 
 <p>
 حلقه‌ها برای تکرار اجرای یک بخش از کد استفاده می‌شوند.
 </p>
 
-<h2>🔹 حلقه for</h2>
+<h2>حلقه for</h2>
+
+<pre><code class="language-cpp">
+#include <iostream>
+using namespace std;
+
+int main() {
+    for(int i=1;i<=5;i++){
+        cout << i << endl;
+    }
+    return 0;
+}
+</code></pre>
+
 <p>
-زمانی استفاده می‌شود که تعداد تکرار مشخص باشد.
+این برنامه اعداد ۱ تا ۵ را چاپ می‌کند.
 </p>
 
-<pre>
-&lt;include&lt;iostream#
-;using namespace std
+<a href="lessons.html">⬅ بازگشت به درس‌ها</a>
 
-() int main
-}
-    }for (int i = 1; i <= 5; i++) 
-        ;cout << i << endl
-        {
-        ;return 0
-    }
-   </pre>
-   <p>
-     در این فلوچارت ما از برنامه میخواهیم که عدد ۱ تا ۵ رو چاپ کنه حالا چطوری؟
-   </p>
-   <p>
-     ما در داخل حلقه یک متغیر به نام i رو تعریف میکنیم و میگیم که برابر ۱ هستشو در ادامه میگیم که این متغیر کوچکتر مساوی ۵ هستش یعنی بیشتر از عدد ۵ مجاز نیست چاپ کنه.
-   </p>
-   <p>
-     توجه داشته باشین که (i++) همون (i+1) هست و معنیش این میشه که تا زمانی که متغیر از عدد ۱ به ۵ نرسیده هر بار متغیر رو به اضافه یک کن  و هر بار چاپش کن.
-   </p>
-   <h2>!نکته خیلی مهم!</h2>
-   <p>
-     توجه کنید که هنگامیکه در آخر cout کلمه (endl) رو ننویسید هنگام چاپ کردن اعداد ۱ تا ۵ اعداد اینگونه نمایش داده میشوند(۱۲۳۴۵)
-   </p>
-   <p>
-     اما اگه در آخر cout کلمه  (endl)رو بنویسید اعداد اینگونه نمایش داده میشوند و خواناتر میشوند.
-     <p>
-      1
-     </p>
-     <p>
-       2
-     </p>
-     <p>
-       3
-     </p>
-     <p>
-       4
-     </p>
-     <p>
-       5
-     </p>
-   </p>
+</div>
+
+<footer>© 2025 AmirCpp</footer>
+</body>
+</html>
+
