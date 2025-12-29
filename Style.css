@@ -1,105 +1,63 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap');
+
 body {
-    body {
-    background: #0f172a;
-    color: white;
+    margin: 0;
     font-family: 'Vazirmatn', sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
     direction: rtl;
+}
+
+header {
+    background: linear-gradient(90deg,#2563eb,#9333ea);
     padding: 20px;
-}
-
-}
-
-nav a {
-    color: #38bdf8;
-    margin-left: 15px;
-    text-decoration: none;
-}
-.lessons {
-    list-style: none;
-    padding: 0;
-}
-
-.lessons li {
-    background: #020617;
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 10px;
-}
-.lessons a {
-    color: #e5e7eb;
-    text-decoration: none;
-}
-
-.lessons a:hover {
-    color: #22c55e;
-}
-pre {
-    background: #020617;
-    color: #e5e7eb;
-    padding: 15px;
-    border-radius: 12px;
-    overflow-x: auto;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-top: 15px;
-}
-body {
-  font-family: "Vazirmatn", sans-serif;
-  background-color: #f8fafc;
-  color: #111827;
-  line-height: 2;
-  margin: 0;
-}
-
-code, pre {
-  background-color: #0f172a;
-  color: #e5e7eb;
-  display: block;
-  direction: ltr;
-  padding: 15px;
-  border-radius: 10px;
-  overflow-x: auto;
-  font-size: 18px;
-    line_height:1.7;
-}
-
-.navbar {
-  background-color: #020617;
-  padding: 12px;
-}
-
-.navbar a {
-  color: #e5e7eb;
-  text-decoration: none;
-  margin-left: 10px;
-}
-body {
-  font-family: Vazirmatn, Tahoma, sans-serif;
-  background-color: #f8fafc;
-  color: #0f172a;
-  margin: 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 .container {
-  max-width: 900px;
-  margin: auto;
-  padding: 20px;
-  line-height: 2;
-}
-h1 {
-  font-size: 30px;
-  margin-bottom: 15px;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #020617;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
 }
 
-h2 {
-  font-size: 24px;
-  margin-top: 40px;
-  border-right: 5px solid #3b82f6;
-  padding-right: 10px;
+a {
+    color: #38bdf8;
+    text-decoration: none;
 }
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    color: #facc15;
+}
+
+p {
+    line-height: 2;
+    font-size: 17px;
+}
+
+.lesson-box {
+    background: #020617;
+    border: 1px solid #1e293b;
+    padding: 15px;
+    border-radius: 12px;
+    margin: 10px 0;
+}
+
 pre {
-  border-radius: 12px;
-  padding: 20px;
-  margin: 25px 0;
-  font-size: 17px;
+    font-size: 16px;
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #94a3b8;
 }
